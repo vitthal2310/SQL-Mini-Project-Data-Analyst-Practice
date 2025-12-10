@@ -136,7 +136,7 @@ SELECT * FROM website_traffic;
 ```
 
 # 4. Data Analyst SQL Tasks (15 Queries)
-# 1. Total sales per day
+## 1. Total sales per day
 ```sql
 SELECT sale_date, SUM(total_sale) AS total_sales_per_day
 FROM retail_sales
@@ -155,5 +155,4 @@ LIMIT 3;
 
 ```
 
-tGPT.
 
