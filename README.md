@@ -1,6 +1,6 @@
 # SQL-Mini-Project – Data Analyst Practice
 
-📌 Project Overview
+ Project Overview
 
 This SQL project demonstrates end-to-end data analysis using five connected datasets:
 
@@ -12,10 +12,10 @@ website_traffic
 
 What You Will Practice
 
-✔ Creating tables
-✔ Inserting sample data
-✔ Data validation queries
-✔ 15 real-world SQL analytical tasks, including:
+Creating tables
+Inserting sample data
+Data validation queries
+15 real-world SQL analytical tasks, including:
 
 Joins (INNER, LEFT)
 Window functions (ROW_NUMBER, RANK, DENSE_RANK)
