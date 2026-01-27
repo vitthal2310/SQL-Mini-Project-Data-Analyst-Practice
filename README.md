@@ -4,10 +4,10 @@
 
 This SQL project demonstrates end-to-end data analysis using five connected datasets:
 
-retail_sales
-customers
-orders
-employees
+retail_sales,
+customers,
+orders,
+employees,
 website_traffic
 
 What You Will Practice
@@ -17,11 +17,11 @@ Inserting sample data
 Data validation queries
 15 real-world SQL analytical tasks, including:
 
-Joins (INNER, LEFT)
-Window functions (ROW_NUMBER, RANK, DENSE_RANK)
-Aggregations (SUM, AVG, COUNT)
-Date functions (EXTRACT, DATE_TRUNC)
-Conditional logic (CASE)
+Joins (INNER, LEFT),
+Window functions (ROW_NUMBER, RANK, DENSE_RANK),
+Aggregations (SUM, AVG, COUNT),
+Date functions (EXTRACT, DATE_TRUNC),
+Conditional logic (CASE),
 Grouping & subqueries
 
 ## 🎯 Objectives
