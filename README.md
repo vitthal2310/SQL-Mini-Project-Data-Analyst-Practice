@@ -32,7 +32,7 @@ Grouping & subqueries
 ✔ Demonstrate analyst-level SQL mastery
 
 ## 1. Database Schema Setup
-## Drop & Create Tables
+## Create Tables
 ```sql
 DROP TABLE IF EXISTS retail_sales;
 CREATE TABLE retail_sales (
