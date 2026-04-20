@@ -44,14 +44,14 @@ CREATE TABLE retail_sales (
 );
 
 CREATE TABLE customers (
-    customer_id INT PRIMARY KEY,
+    customer_id VARCHAR(10) PRIMARY KEY,
     name VARCHAR(20),
     city VARCHAR(20)
 );
 
 CREATE TABLE orders (
     order_id INT PRIMARY KEY,
-    customer_id INT,
+    customer_id VARCHAR(10),
     order_amount INT,
     order_date DATE
 );
@@ -66,7 +66,7 @@ CREATE TABLE employees (
 
 CREATE TABLE website_traffic (
     visit_id INT PRIMARY KEY,
-    user_id INT,
+    user_id VARCHAR(10),
     visit_date DATE,
     session_duration_sec INT
 );
@@ -86,8 +86,6 @@ VALUES
 ```
 Customers
 ```sql
-ALTER TABLE customers ALTER COLUMN customer_id TYPE VARCHAR(10);
-
 INSERT INTO customers (customer_id, name, city)
 VALUES
 ('C101', 'Amit', 'Pune'),
@@ -98,9 +96,6 @@ VALUES
 ```
 Orders
 ```sql
-ALTER TABLE orders RENAME COLUMN ustomer_id TO customer_id;
-ALTER TABLE orders ALTER COLUMN customer_id TYPE VARCHAR(10);
-
 INSERT INTO orders (order_id, customer_id, order_amount, order_date)
 VALUES
 (1, 'C101', 1200, '2024-01-01'),
@@ -124,8 +119,6 @@ VALUES
 
 Website Traffic
 ```sql
-ALTER TABLE website_traffic ALTER COLUMN user_id TYPE VARCHAR(10);
-
 INSERT INTO website_traffic (visit_id, user_id, visit_date, session_duration_sec)
 VALUES
 (1, 'U1', '2024-01-01', 300),
