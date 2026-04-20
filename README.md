@@ -24,12 +24,12 @@ Date functions (EXTRACT, DATE_TRUNC),
 Conditional logic (CASE),
 Grouping & subqueries
 
-## 🎯 Objectives
+##  Objectives
 
-✔ Create & populate relational tables
-✔ Perform real data analysis
-✔ Solve 15 business SQL questions
-✔ Demonstrate analyst-level SQL mastery
+ Create & populate relational tables
+ Perform real data analysis
+ Solve 15 business SQL questions
+ Demonstrate analyst-level SQL mastery
 
 ## 1. Database Schema Setup
 ## Create Tables
