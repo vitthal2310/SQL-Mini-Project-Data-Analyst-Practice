@@ -34,7 +34,6 @@ Grouping & subqueries
 ## 1. Database Schema Setup
 ## Create Tables
 ```sql
-DROP TABLE IF EXISTS retail_sales;
 CREATE TABLE retail_sales (
     sale_id INT PRIMARY KEY,
     customer_id VARCHAR(10),
@@ -65,7 +64,6 @@ CREATE TABLE employees (
     join_date DATE
 );
 
-DROP TABLE IF EXISTS website_traffic;
 CREATE TABLE website_traffic (
     visit_id INT PRIMARY KEY,
     user_id INT,
